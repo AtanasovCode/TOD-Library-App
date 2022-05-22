@@ -2,11 +2,11 @@
 
 # Overview
 
-    - [Project Overview](#project-overview)
-    - [Screenshots](#screenshots)
-    - [Made Using](#made-using)
-    - [Known Bugs](#known-bugs)
-    - [Author](#author)
+- [Project Overview](#project-overview)
+- [Screenshots](#screenshots)
+- [Made Using](#made-using)
+- [Known Bugs](#known-bugs)
+- [Author](#author)
 
 ### Project Overview
 
@@ -31,4 +31,5 @@ the next book he clickes to remove, both that book and the previous book will be
 ### Author 
 
 [AtanasovCode](https://github.com/AtanasovCode)
+
 [AtanasovCode Frontendmentor.io](https://www.frontendmentor.io/profile/AtanasovCode)
