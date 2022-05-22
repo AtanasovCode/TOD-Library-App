@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library | TOD</title>
+
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <nav>
+        <div class="nav-logo">
+            <h1>My Library</h1>
+        </div>
+    </nav>
+    <div class="input-container">
+        <div class="add-book-container">
+            <h1>Add A Book?</h1>
+            <span class="add">+</span>
+        </div>
+        <div class="form-container disabled">
+            <div class="ex-container">
+                <h3>X</h3>
+            </div>
+            <form>
+                <input type="text" class="input" placeholder="Book Title..." id="title">
+            </form>
+            <form>
+                <input type="text" class="input" placeholder="Author..." id="author">
+            </form>
+            <form>
+                <input type="number" class="input" placeholder="Number Of Pages..." id="pages">
+            </form>
+            <form>
+                <label>
+                    Have You Read The Book?
+                </label>
+                <input type="checkbox" class="checkbox" id="status">
+            </form>
+            <form>
+                <input type="button" class="btn" value="Submit">
+            </form>
+        </div>
+    </div>
+    <div class="output-container">
+        <div class="remove-container">
+            <h3>Are You Sure You Want To Remove Book?</h3>
+            <div class="options-container">
+                <input type="button" class="book-remove" value="Remove">
+                <input type="button" class="keep-book" value="Don't Remove">
+            </div>
+        </div>
+        <!-- Where All The Books Go -->
+    </div>
+</body>
+
+</html>
